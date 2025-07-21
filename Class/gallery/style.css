@@ -1,0 +1,36 @@
+* {
+  margin: 8px;
+  padding: 8px;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+.gallery {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 5px;
+}
+
+.gallery .item img {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+.gallery .large {
+  flex: 100%;
+}
+
+.gallery .wide {
+  flex: 48%;
+}
+
+.gallery .medium {
+  flex: 30%;
+}
+
+.gallery .small {
+  flex: 23%;
+}
